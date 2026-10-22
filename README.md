@@ -133,7 +133,7 @@ chmod +x /etc/init.d/dejedemon
 | Lama logo opening | 5 sampai 30 detik |
 | Warna logo mengikuti tema | Mati = logo tetap hijau asli DEJEDE |
 
-![4 logo opening](preview_4_logo_opening.png)
+![4 logo opening
 
 | Kunci | Nama | Deskripsi |
 |---|---|---|

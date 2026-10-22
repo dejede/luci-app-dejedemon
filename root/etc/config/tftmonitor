@@ -1,1 +1,45 @@
 
+config tftmonitor 'main'
+	# --- Scene & transisi ---
+	option scene_period '60'
+	option weather_enabled '1'
+	option weather_seconds '15'
+	option transition 'iris'
+
+	# --- Logo opening ---
+	option logo_enabled '1'
+	option logo_mode 'rotate'
+	option logo_style 'cinematic'
+	option logo_seconds '10'
+	option logo_follow_theme '0'
+	list logo_list 'cinematic'
+	list logo_list 'sticker'
+	list logo_list 'mark'
+	list logo_list 'neon'
+
+	# --- Cuaca & lokasi ---
+	option weather_source 'bmkg'
+	option desa 'Tempursari'
+	option kec ''
+	option kab 'Lumajang'
+	option adm4 ''
+	option lat '-8.1337'
+	option lon '113.2225'
+	option weather_interval '10'
+	option weather_force ''
+
+	# --- Tema warna (10 tema) ---
+	option theme_mode 'auto'
+	option theme 'cyber'
+	option theme_interval '5'
+	option theme_order 'seq'
+	list theme_list 'cyber'
+	list theme_list 'emerald'
+	list theme_list 'gold'
+	list theme_list 'sunset'
+	list theme_list 'crimson'
+	list theme_list 'ice'
+	list theme_list 'violet'
+	list theme_list 'neongreen'
+	list theme_list 'electric'
+	list theme_list 'mocha'

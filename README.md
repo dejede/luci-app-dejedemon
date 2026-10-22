@@ -2,6 +2,20 @@
 
 Aplikasi monitoring hardware dan cuaca yang berjalan di OLED/LCD TFT **240x240** (ST7789 via SPI), dibuat untuk **OpenWrt** di **Orange Pi Zero 3**. Semua pengaturan dilakukan dari halaman web LuCI, tanpa perlu edit kode.
 
+  <!-- ===================== BADGES ====================== -->
+<p align="center">
+  <a href="https://wa.me/6285236578999"><img src="https://img.shields.io/badge/DEJEDE_%7C_%2B6285236578999-5C765D?style=flat&logo=whatsapp&logoColor=white&labelColor=3F4F40" alt="Dejede Badge"/></a>
+  <img src="https://img.shields.io/badge/Views-1k-yellow?style=flat-square&logo=visual-studio-code" alt="Profile Views"/>
+  <img src="https://img.shields.io/badge/Followers-10k-2CA5E0?style=flat-square&logo=github" alt="GitHub Followers"/>
+  <img src="https://img.shields.io/badge/🌐_Network_Engineer-00B5E2?style=flat-square" alt="Network Engineer"/>
+  <img src="https://img.shields.io/badge/💻_Developer-7B61FF?style=flat-square" alt="Developer"/>
+  <img src="https://img.shields.io/badge/📡_OpenWrt-00B5E2?style=flat-square&logo=openwrt&logoColor=white" alt="OpenWrt"/>
+  <img src="https://img.shields.io/badge/🇮🇩_Indonesia-EF4444?style=flat-square" alt="Indonesia"/>
+</p>
+</div>
+
+
+
 [![Preview DejedeMon Themes](https://github.com/dejede/luci-app-dejedemon/raw/main/preview_10_tema.png)](https://github.com/dejede/luci-app-dejedemon/blob/main/preview_10_tema.png)
 
 ## Fitur

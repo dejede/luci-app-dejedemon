@@ -4,7 +4,6 @@ Aplikasi monitoring hardware dan cuaca yang berjalan di OLED/LCD TFT **240x240**
 
 [![Preview DejedeMon Themes](https://github.com/dejede/luci-app-dejedemon/raw/main/preview_10_tema.png)](https://github.com/dejede/luci-app-dejedemon/blob/main/preview_10_tema.png)
 
-
 ## Fitur
 
 - **Dashboard hardware**: CPU, suhu, RAM, load, uptime, jaringan LAN/WAN, jumlah klien DHCP, dan sinyal modem seluler.
@@ -18,7 +17,7 @@ Aplikasi monitoring hardware dan cuaca yang berjalan di OLED/LCD TFT **240x240**
 
 ```
 tft_monitor.py          skrip utama yang menggambar ke layar
-logos/                  LOGOKU_COBA2.png dan LOGOKUMARK1.png (dipakai logo opening)
+logos/                  dejedelogo_1.png dan dejedelogo_2.png (dipakai logo opening)
 htdocs/, root/          halaman LuCI: Services > DejedeMon
 install.sh              installer untuk router
 ```
@@ -133,7 +132,7 @@ chmod +x /etc/init.d/dejedemon
 | Lama logo opening | 5 sampai 30 detik |
 | Warna logo mengikuti tema | Mati = logo tetap hijau asli DEJEDE |
 
-![4 logo opening
+![4 logo opening](preview_4_logo_opening.png)
 
 | Kunci | Nama | Deskripsi |
 |---|---|---|
@@ -197,7 +196,8 @@ Semua ada di bagian atas `tft_monitor.py`:
 |---|---|
 | `THEMES` | Tambah/ubah tema: `bg`, `panel`, `edge` (latar & bingkai) dan `a`-`d` (empat warna aksen). Tambahkan juga kunci dan warnanya di `THEMES` pada `settings.js` agar muncul di LuCI |
 | `LOGO_STACKED` | `True` = kamera di atas, tulisan di bawah. `False` = tata letak melebar asli |
-| `LOGO_TAGLINE` | Teks kecil di bawah logo mark/neon. Kosongkan (`""`) untuk menghapus |
+| `LOGO_TAGLINE` | Teks di bawah logo mark/neon. Kosongkan (`""`) untuk menghapus |
+| `LOGO_TAGLINE_SIZE` / `LOGO_TAGLINE_TRACK` | Ukuran huruf (bawaan 17 px) dan jarak antar huruf (bawaan 3 px) teks tersebut |
 | `LOGO_FILES` | Nama berkas gambar tiap gaya logo |
 | `LOGO_DIRS` | Folder pencarian logo (`/usr/share/dejedemon/logos`, lalu folder `logos` di samping skrip) |
 

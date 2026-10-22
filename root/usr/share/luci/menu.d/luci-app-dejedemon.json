@@ -1,0 +1,14 @@
+{
+	"admin/services/dejedemon": {
+		"title": "DejedeMon",
+		"order": 60,
+		"action": {
+			"type": "view",
+			"path": "dejedemon/settings"
+		},
+		"depends": {
+			"acl": [ "luci-app-dejedemon" ],
+			"uci": { "tftmonitor": true }
+		}
+	}
+}

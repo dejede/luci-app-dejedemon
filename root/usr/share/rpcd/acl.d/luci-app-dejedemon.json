@@ -1,0 +1,11 @@
+{
+	"luci-app-dejedemon": {
+		"description": "Atur DejedeMon (scene, logo opening, cuaca, tema warna)",
+		"read": {
+			"uci": [ "tftmonitor" ]
+		},
+		"write": {
+			"uci": [ "tftmonitor" ]
+		}
+	}
+}

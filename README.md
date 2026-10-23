@@ -1,4 +1,4 @@
-# DejedeMon
+# luci-app-dejedemon-SPI
 
 Aplikasi monitoring hardware dan cuaca yang berjalan di OLED/LCD TFT **240x240** (ST7789 via SPI), dibuat untuk **OpenWrt** di **Orange Pi Zero 3**. Semua pengaturan dilakukan dari halaman web LuCI, tanpa perlu edit kode.
 

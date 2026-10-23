@@ -228,6 +228,15 @@ Untuk mengganti gambar logo, timpa berkas di `/usr/share/dejedemon/logos` dengan
 | Cuaca tidak muncul | Cek internet router, jalankan `--cek-cuaca`, atau isi kode wilayah BMKG manual |
 | Tema/logo baru tidak ikut berputar | Tambahkan ke "Tema yang diputar" / "Logo yang diputar" di LuCI |
 
-## Lisensi dan kredit
+
+## 🙌 Kontribusi & dukungan
+
+Saran, laporan bug, dan pull request sangat diterima. Untuk pertanyaan atau layanan lain, hubungi:
+
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-%2B6285236578999-25D366?logo=whatsapp&logoColor=white)](https://wa.me/6285236578999)
+
+**DEJEDE** · Photo & Video Services
+
+## 📄 Lisensi
 
 Logo DEJEDE milik pemiliknya. Data cuaca dari [BMKG](https://api.bmkg.go.id) dan [Open-Meteo](https://open-meteo.com). Tambahkan lisensi untuk kode sesuai kebutuhan Anda (misalnya MIT).
